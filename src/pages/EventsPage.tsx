@@ -7,6 +7,8 @@ const typeColors: Record<string, string> = {
   Meetup: "var(--sds-clr-teal-09)",
   Hackathon: "var(--sds-clr-gold-09)",
   Webinar: "var(--sds-clr-navy-09)",
+  Bootcamp: "var(--sds-clr-green-09)",
+  Challenge: "var(--sds-clr-gold-11)",
 };
 
 export default function EventsPage() {
@@ -44,6 +46,15 @@ export default function EventsPage() {
                   <span className="event-time">{event.time}</span>
                 </div>
                 <div className="event-body">
+                  <div className="event-image-wrapper">
+                    <img 
+                      src={event.image} 
+                      alt={event.title} 
+                      className="event-card-thumbnail" 
+                      loading="lazy"
+                    />
+                  </div>
+                  
                   <div className="event-meta">
                     <span
                       className="event-type"
@@ -55,9 +66,16 @@ export default function EventsPage() {
                   </div>
                   <h3 className="event-title">{event.title}</h3>
                   <p className="event-desc">{event.desc}</p>
-                  <button type="button" className="btn btn-primary event-register">
+                  
+                  <a 
+                    href={event.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="btn btn-primary event-register text-center display-block"
+                    style={{ textDecoration: 'none', display: 'inline-block' }}
+                  >
                     Register interest
-                  </button>
+                  </a>
                 </div>
               </article>
             ))}
@@ -70,6 +88,9 @@ export default function EventsPage() {
           <div className="events-past-grid">
             {past.map((event) => (
               <article key={event.id} className="event-past-card">
+                <div className="event-past-image-wrapper">
+                  <img src={event.image} alt={event.title} className="event-past-thumbnail" loading="lazy" />
+                </div>
                 <span
                   className="event-type event-type-sm"
                   style={{ background: typeColors[event.type] }}

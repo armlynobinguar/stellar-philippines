@@ -1,63 +1,51 @@
-export interface Event {
+export interface CommunityEvent {
   id: string;
   title: string;
+  image: string;
   date: string;
-  time: string;
+  link: string;
   location: string;
-  type: "Workshop" | "Meetup" | "Hackathon" | "Webinar";
+  status: 'upcoming' | 'past';
+  time: string;
+  type: 'Bootcamp' | 'Hackathon' | 'Workshop' | 'Challenge';
   desc: string;
-  status: "upcoming" | "past";
 }
 
-export const events: Event[] = [
+export const events: CommunityEvent[] = [
   {
-    id: "1",
-    title: "Intro to Soroban Smart Contracts",
-    date: "July 12, 2026",
-    time: "2:00 PM PHT",
-    location: "Manila · Hybrid",
-    type: "Workshop",
-    desc: "Hands-on workshop covering Rust basics, Soroban SDK, and deploying your first contract to testnet.",
-    status: "upcoming",
+    "id": "WFvrjk4iLh0TGrBA",
+    "title": "Build on Stellar Bootcamp - Baliuag University",
+    "image": "https://files.risein.com/programs/kvgcq-cohort-1782203995842png",
+    "date": "June 26, 2026",
+    "link": "https://www.risein.com/programs/build-on-stellar-bootcamp-baliuag-university",
+    "location": "Baliuag City, Philippines",
+    "status": "upcoming",
+    "time": "12:00 AM",
+    "type": "Bootcamp",
+    "desc": "Join this exciting beginner level Stellar ecosystem tracking program. Organized via Rise In."
   },
   {
-    id: "2",
-    title: "Stellar PH Builder Meetup — Cebu",
-    date: "July 26, 2026",
-    time: "6:00 PM PHT",
-    location: "Cebu City",
-    type: "Meetup",
-    desc: "Monthly community meetup for Filipino Stellar builders. Project demos, networking, and pizza.",
-    status: "upcoming",
+    "id": "HrDjqCAA8yxTm1yn",
+    "title": "Stellar Journey to Mastery: Monthly Builder Challenges - $20,000 Prize Pool 🎉",
+    "image": "https://files.risein.com/programs/_3zmz-cohort-1780031137050png",
+    "date": "June 1, 2026",
+    "link": "https://www.risein.com/programs/stellar-journey-to-mastery-monthly-builder-challenges",
+    "location": "Online",
+    "status": "upcoming",
+    "time": "02:30 AM",
+    "type": "Challenge",
+    "desc": "Join this exciting Stellar ecosystem tracking program. Organized via Rise In."
   },
   {
-    id: "3",
-    title: "Build on Stellar Hackathon 2026",
-    date: "August 15–17, 2026",
-    time: "All day",
-    location: "Online · Global",
-    type: "Hackathon",
-    desc: "48-hour hackathon focused on remittance, DeFi, and real-world asset tokenization on Stellar.",
-    status: "upcoming",
-  },
-  {
-    id: "4",
-    title: "Payments on Stellar: PH Remittance Deep Dive",
-    date: "May 10, 2026",
-    time: "3:00 PM PHT",
-    location: "Online",
-    type: "Webinar",
-    desc: "Explored how Stellar anchors and SEP-24 enable fast PHP on/off ramps for cross-border payments.",
-    status: "past",
-  },
-  {
-    id: "5",
-    title: "Stellar PH Launch Meetup",
-    date: "April 5, 2026",
-    time: "5:00 PM PHT",
-    location: "BGC, Taguig",
-    type: "Meetup",
-    desc: "Kickoff event for the Stellar Philippines community — 80+ builders in attendance.",
-    status: "past",
-  },
+    "id": "y7v3YIfsz5zIaPuHS",
+    "title": "APAC Stellar Hackathon",
+    "image": "https://files.risein.com/programs/co8um-cohort-1778746738617png",
+    "date": "May 14, 2026",
+    "link": "https://www.risein.com/programs/apac-stellar-hackathon",
+    "location": "Online",
+    "status": "upcoming",
+    "time": "01:00 AM",
+    "type": "Hackathon",
+    "desc": "Join this exciting intermediate level Stellar ecosystem tracking program. Organized via Rise In."
+  }
 ];
