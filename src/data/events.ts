@@ -13,18 +13,6 @@ export interface CommunityEvent {
 
 export const events: CommunityEvent[] = [
   {
-    "id": "WFvrjk4iLh0TGrBA",
-    "title": "Build on Stellar Bootcamp - Baliuag University",
-    "image": "https://files.risein.com/programs/kvgcq-cohort-1782203995842png",
-    "date": "June 26, 2026",
-    "link": "https://www.risein.com/programs/build-on-stellar-bootcamp-baliuag-university",
-    "location": "Baliuag City, Philippines",
-    "status": "upcoming",
-    "time": "12:00 AM",
-    "type": "Bootcamp",
-    "desc": "Join this exciting beginner level Stellar ecosystem tracking program. Organized via Rise In."
-  },
-  {
     "id": "HrDjqCAA8yxTm1yn",
     "title": "Stellar Journey to Mastery: Monthly Builder Challenges - $20,000 Prize Pool 🎉",
     "image": "https://files.risein.com/programs/_3zmz-cohort-1780031137050png",
