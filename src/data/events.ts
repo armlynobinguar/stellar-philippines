@@ -13,18 +13,6 @@ export interface CommunityEvent {
 
 export const events: CommunityEvent[] = [
   {
-    "id": "ln1q4rC_CSntqFe5",
-    "title": "APAC Stellar Hackathon Demo Day",
-    "image": "https://files.risein.com/programs/f3kj4-cohort-1784030779796jpeg",
-    "date": "July 18, 2026",
-    "link": "https://www.risein.com/programs/apac-stellar-hackathon-demo-day",
-    "location": "Taguig City, Philippines",
-    "status": "upcoming",
-    "time": "12:00 AM",
-    "type": "Hackathon",
-    "desc": "Join this exciting advanced level Stellar ecosystem tracking program. Organized via Rise In."
-  },
-  {
     "id": "HrDjqCAA8yxTm1yn",
     "title": "Stellar Journey to Mastery: Monthly Builder Challenges - $20,000 Prize Pool 🎉",
     "image": "https://files.risein.com/programs/_3zmz-cohort-1780031137050png",
