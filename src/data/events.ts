@@ -25,12 +25,12 @@ export const events: CommunityEvent[] = [
     "desc": "Join this exciting beginner level Stellar ecosystem tracking program. Organized via Rise In."
   },
   {
-    "id": "IKTnOXI_os08vYtD",
-    "title": "Build on Stellar Bootcamp - Centro Escolar University, Malolos",
-    "image": "https://files.risein.com/programs/crqlt-program-1786549373575jpeg",
-    "date": "August 20, 2026",
-    "link": "https://www.risein.com/programs/build-on-stellar-bootcamp-centro-escolar-university-malolos",
-    "location": "Malolos, Philippines",
+    "id": "wMv5p7kJycFb5Lvk",
+    "title": "Build on Stellar Bootcamp - PHINMA Araullo University",
+    "image": "https://files.risein.com/programs/yesdp-program-1786616760205jpeg",
+    "date": "August 24, 2026",
+    "link": "https://www.risein.com/programs/build-on-stellar-bootcamp-phinma-araullo-university",
+    "location": "Cabanatuan, Philippines",
     "status": "upcoming",
     "time": "12:00 AM",
     "type": "Bootcamp",
@@ -47,5 +47,17 @@ export const events: CommunityEvent[] = [
     "time": "02:30 AM",
     "type": "Challenge",
     "desc": "Join this exciting Stellar ecosystem tracking program. Organized via Rise In."
+  },
+  {
+    "id": "IKTnOXI_os08vYtD",
+    "title": "Build on Stellar Bootcamp - Centro Escolar University, Malolos",
+    "image": "https://files.risein.com/programs/wkxv5-cohort-1786616978674jpeg",
+    "date": "September 4, 2026",
+    "link": "https://www.risein.com/programs/build-on-stellar-bootcamp-centro-escolar-university-malolos",
+    "location": "Malolos, Philippines",
+    "status": "upcoming",
+    "time": "12:00 AM",
+    "type": "Bootcamp",
+    "desc": "Join this exciting beginner level Stellar ecosystem tracking program. Organized via Rise In."
   }
 ];
