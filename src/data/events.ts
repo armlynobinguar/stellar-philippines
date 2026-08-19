@@ -13,18 +13,6 @@ export interface CommunityEvent {
 
 export const events: CommunityEvent[] = [
   {
-    "id": "BA-w_GOHGKIjuPQK",
-    "title": "Build on Stellar Bootcamp - Bestlink College of the Philippines",
-    "image": "https://files.risein.com/programs/of-l7-program-1786544993825jpeg",
-    "date": "August 18, 2026",
-    "link": "https://www.risein.com/programs/build-on-stellar-bootcamp-bestlink-college-of-the-philippines",
-    "location": "Quezon City, Philippines",
-    "status": "upcoming",
-    "time": "12:00 AM",
-    "type": "Bootcamp",
-    "desc": "Join this exciting beginner level Stellar ecosystem tracking program. Organized via Rise In."
-  },
-  {
     "id": "wMv5p7kJycFb5Lvk",
     "title": "Build on Stellar Bootcamp - PHINMA Araullo University",
     "image": "https://files.risein.com/programs/yesdp-program-1786616760205jpeg",
