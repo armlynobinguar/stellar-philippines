@@ -13,18 +13,6 @@ export interface CommunityEvent {
 
 export const events: CommunityEvent[] = [
   {
-    "id": "wMv5p7kJycFb5Lvk",
-    "title": "Build on Stellar Bootcamp - PHINMA Araullo University",
-    "image": "https://files.risein.com/programs/yesdp-program-1786616760205jpeg",
-    "date": "August 24, 2026",
-    "link": "https://www.risein.com/programs/build-on-stellar-bootcamp-phinma-araullo-university",
-    "location": "Cabanatuan, Philippines",
-    "status": "upcoming",
-    "time": "12:00 AM",
-    "type": "Bootcamp",
-    "desc": "Join this exciting beginner level Stellar ecosystem tracking program. Organized via Rise In."
-  },
-  {
     "id": "HrDjqCAA8yxTm1yn",
     "title": "Stellar Journey to Mastery: Monthly Builder Challenges - $20,000 Prize Pool 🎉",
     "image": "https://files.risein.com/programs/_3zmz-cohort-1780031137050png",
