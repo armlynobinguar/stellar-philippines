@@ -28,7 +28,7 @@ export const events: CommunityEvent[] = [
     "id": "IKTnOXI_os08vYtD",
     "title": "Build on Stellar Bootcamp - Centro Escolar University, Malolos",
     "image": "https://files.risein.com/programs/wkxv5-cohort-1786616978674jpeg",
-    "date": "September 4, 2026",
+    "date": "October 8, 2026",
     "link": "https://www.risein.com/programs/build-on-stellar-bootcamp-centro-escolar-university-malolos",
     "location": "Malolos, Philippines",
     "status": "upcoming",
